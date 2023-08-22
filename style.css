@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+#main-nav{
+    background-color: transparent;
+}
+section{
+    height: 100vh;
+    /* color: white; */
+}
+#Home{
+    background: url(./Images/pexels-andrea-piacquadio-3771790.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-col{
+    margin-top: 25%;
+}
+i{
+    color: black;
+}
+#main-nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px #606161;
+    background-color: #c5c6be;
+}
